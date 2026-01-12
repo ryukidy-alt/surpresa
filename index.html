@@ -65,16 +65,22 @@
             opacity: 0.8;
         }
     </style>.botao {
-    margin-top: 20px;
-    padding: 15px 30px;
-    font-size: 1.2em;
+    margin-top: 25px;
+    padding: 40px 60px;          /* aumenta a área clicável */
+    font-size: 2.5em;            /* texto MUITO maior */
     border: none;
-    border-radius: 30px;
+    border-radius: 50px;
     background: white;
     color: #ff4f7b;
     cursor: pointer;
     font-weight: bold;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+}
+
+.botao:hover {
+    transform: scale(1.05);
+}
+
 }
 
 .botao:hover {
@@ -131,3 +137,4 @@ function tocarMusica() {
 
 
 </html>
+
