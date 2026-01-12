@@ -64,18 +64,34 @@
             font-size: 1em;
             opacity: 0.8;
         }
-    .botao {
+    <style>
+.botao {
     margin-top: 25px;
-    padding: 40px 60px;          /* aumenta a área clicável */
-    font-size: 2.5em;            /* texto MUITO maior */
+    padding: 40px 60px;
+    font-size: 2.5em;
     border: none;
     border-radius: 50px;
     background: white;
     color: #ff4f7b;
     cursor: pointer;
     font-weight: bold;
+    font-weight: bold;
     box-shadow: 0 8px 25px rgba(0,0,0,0.35);
-        </style>
+}
+
+.botao:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+    .botao {
+        font-size: 3.2em;
+        padding: 50px 40px;
+        width: 90%;
+    }
+}
+</style>
+
 }
 
 .botao:hover {
@@ -138,5 +154,6 @@ function tocarMusica() {
 
 
 </html>
+
 
 
